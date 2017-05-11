@@ -1,0 +1,8 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.mvc" xmlns="sap.m">
+	<App id="idApp">
+		<pages>
+			<mvc:XMLView viewName="views.View1"/>
+			<mvc:XMLView viewName="views.View2"/>
+		</pages>
+	</App>
+</core:View>
