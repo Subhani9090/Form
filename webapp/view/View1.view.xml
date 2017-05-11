@@ -3,7 +3,9 @@
 	<App>
 		<pages>
 			<Page title="{i18n>title}">
+				<!--This is logo of Entune-->
 				<Image src="img/Entune.jpg" width="20%"></Image>
+				<!--This is Menu Bar Starting-->
 				<tnt:ToolHeader >
 					<ToolbarSpacer width="100px"/>
 					<Link text="About Us" press="linkPress" target="_blank" href="http://www.entune.co/?page_id=14" emphasized="true" >
@@ -37,6 +39,8 @@
 						</layoutData>
 					</Link>
 				</tnt:ToolHeader>
+				<!--This is Menu Bar Ends-->
+				<!--The login content starts-->
 				<content >
 					<VBox>
 						<f:SimpleForm layout="GridLayout" width="60%">
@@ -49,11 +53,13 @@
 								<Link text="Forget password" press="handleLinkPress" emphasized="true"/>
 								<Label text=""/>
 								<Button width="10rem"  text="Login" type="Emphasized"/>
-								<Link text="Register" press="handleLinkPress" emphasized="true"/>
+								<Link text="Register" press="handleLinkPress" emphasized="true" />
 							</f:content>
 						</f:SimpleForm>
 					</VBox>
 				</content>
+				<!--The login content starts-->
+				<!--Footer starts-->
 				<footer>
 					<Bar>
 						<contentRight>
@@ -64,6 +70,7 @@
 						</contentLeft>
 					</Bar>
 				</footer>
+				<!--Footer ends-->
 			</Page>
 		</pages>
 	</App>
