@@ -4,5 +4,8 @@ sap.ui.controller("gst.controller.View1", {
 	},
 	handleEmailPress: function() {
 		sap.m.URLHelper.triggerEmail("ruchi.singh@entune.co", "sample Subject", "Hi");
+	},
+	registerPress:function(){
+
 	}
 });
